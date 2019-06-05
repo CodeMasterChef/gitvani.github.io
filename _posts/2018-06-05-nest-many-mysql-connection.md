@@ -3,7 +3,7 @@ layout: post
 title: Nest -  Many mySQL connections
 ---
 
-# Many mySQL connections:
+Config as bellow on `app.module.ts`:
 
 ```
 
