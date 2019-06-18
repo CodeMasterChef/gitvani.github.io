@@ -1,4 +1,4 @@
-# Nothing special hear. 
+# Nothing special here. 
 
 Some boring notes for the coding life.
 
