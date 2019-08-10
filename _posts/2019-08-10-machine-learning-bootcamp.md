@@ -14,3 +14,7 @@ https://app.slack.com/client/TA657R22E/CM8CD5RRT
 I want to understand clearly and run a machine learning model in real production environment.  
 
 Understand TensorFlow and Google Cloud Vision.
+
+Variant of CNN from Transfer Learning.
+
+Rasa.com - Create assistants that go beyond basic FAQs
