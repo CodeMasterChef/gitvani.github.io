@@ -6,6 +6,7 @@ title: Marchine Learning Bootcamp
 # Machine Learning Bootcamp
 
 bit.ly/JoinHBSlack
+
 https://app.slack.com/client/TA657R22E/CM8CD5RRT
 
 #google-ml-bootcamp
