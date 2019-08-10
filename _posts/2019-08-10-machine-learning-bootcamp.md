@@ -22,3 +22,5 @@ https://medium.com/ai%C2%B3-theory-practice-business
 https://blog.qwiklabs.com/study-jam-1/
 
 code: 1s-hochiminh-2222
+
+http://draw.hasbrain.com/
