@@ -20,3 +20,5 @@ Variant of CNN from Transfer Learning.
 Rasa.com - Create assistants that go beyond basic FAQs
 
 Flask - The Python micro framework for building web applications. 
+
+https://medium.com/ai%C2%B3-theory-practice-business
