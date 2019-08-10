@@ -18,3 +18,5 @@ Understand TensorFlow and Google Cloud Vision.
 Variant of CNN from Transfer Learning.
 
 Rasa.com - Create assistants that go beyond basic FAQs
+
+Flask - The Python micro framework for building web applications. 
