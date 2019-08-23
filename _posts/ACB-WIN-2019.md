@@ -41,3 +41,7 @@ Chia làm 2 nhóm:
 - Nhanh chóng.
 - Phân tích dòng tiền.
 - Đa nền tảng.
+# Vấn đề tập trung:
+- Đặt mục tiêu: đặt ra mục tiêu cần làm ngay trong 3-6 tháng tới, hoặc xa hơn 3-5 năm tới.
+- Hiện thực hóa mục tiêu: Từng bước chuẩn bị tài chính, sẵn sàng thực hiện các mục tiêu, dự định đã đặt ra đúng hạn.
+
