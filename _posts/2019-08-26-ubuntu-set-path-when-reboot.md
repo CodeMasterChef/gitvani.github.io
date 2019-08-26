@@ -1,5 +1,7 @@
 
-We need to config NODE_ENV when we reboot server. To set NODE_ENV open terminal and open /etc/profile:
+We can config NODE_ENV when we reboot server. 
+
+To set NODE_ENV, we can edit file /etc/profile:
 
 ```
 sudo nano /etc/profile
