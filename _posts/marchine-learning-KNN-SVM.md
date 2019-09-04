@@ -31,4 +31,6 @@ SVM có thể áp dụng biến đổi chiều để chia cắt dễ hơn:
 Khi nào dùng linear SVM, khi nào dùng thêm dimession? Đều này phụ thuộc vào số lượng data, số lượng feature. Khi mình có nhiều feature thì nên dùng linear:
 ![image](https://user-images.githubusercontent.com/10974517/64255660-04698880-cf4c-11e9-9df2-f54daafcd202.png)
 
+# References:
 
+https://data-flair.training/blogs/svm-kernel-functions/#targetText=SVM%20Kernel%20Functions,functions%20can%20be%20different%20types
