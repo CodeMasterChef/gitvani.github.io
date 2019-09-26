@@ -25,3 +25,10 @@ import cv2
 cv2.__version__
 
 ```
+# Môi trường python bình thường:
+
+Cần cài đặt cả 2 gói sau ở version 3.3.0.10:
+```
+pip install opencv-python=3.3.0.10
+pip install opencv-contrib-python==3.3.0.10
+```
