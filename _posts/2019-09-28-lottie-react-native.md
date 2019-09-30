@@ -28,3 +28,22 @@ In the Embedded Binaries section above click the + icon and add the Lottie.frame
 ![](https://miro.medium.com/max/1234/1*9xdWL-x1dgXdD54DppamIw.png)
 
 Read more: https://medium.com/react-native-training/lottie-react-native-tutorial-162d91840720
+
+# With Expokit:
+
+Expokit (ejected from Expo) using Pods to install library.
+
+We using bellow command to install a suitable version: 
+
+```
+expo install lottie-react-native
+```
+
+We can get an [error](https://github.com/react-native-community/lottie-react-native/issues/409): "LottieAnimationView but name was already registered by class ExAnimationViewManager"
+
+The way to fix: If you're using expo, expo itself has lottie-react-native. You should remove any lottie packages that have been added by react-native link, e.g. lottie-ios. This solved the issue for me. There's no need to link those packages if i'm not mistaken.
+
+I mean remove we need to remove below line on Podfile: 
+```
+pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+```
