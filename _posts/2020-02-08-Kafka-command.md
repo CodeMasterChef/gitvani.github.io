@@ -75,4 +75,21 @@ Error: Assignments can only be reset if the group 'first-application' is inactiv
 
 How to fix: We have to stop all comsumers in the group.
 
+# 🌟CLI Options that are good to know:
+
+
+
+The CLI have many options, but here are the other that are most commonly used:
+
+Producer with keys:
+```
+kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first-topic --property parse.key=true --property key.separator=,
+> key,value
+> another key,another value
+```
+
+Consumer with keys:
+```
+kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first-topic --from-beginning --property print.key=true --property key.separator=,
+```
 
