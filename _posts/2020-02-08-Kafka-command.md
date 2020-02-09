@@ -1,3 +1,13 @@
+# Zookeeper:
+
+```
+zookeeper-server-start.sh config/zookeeper.properties
+```
+# Kafka server:
+```
+kafka-server-start.sh config/server.properties
+```
+
 # Topic:
 
 ```
