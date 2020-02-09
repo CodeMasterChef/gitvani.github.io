@@ -57,3 +57,22 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
 ```
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group first-application
 ```
+## Reset offset:
+
+Reset the consumer offset for a topic for preview: This will print the expected result of the reset, but not actually run it.
+
+```
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group first-application --topic first-topic --reset-offsets --to-earliest --dry-run
+```
+
+Reset the consumer offset for a topic (execute):
+
+```
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group first-application --topic first-topic --reset-offsets --to-earliest --execute
+```
+
+Error: Assignments can only be reset if the group 'first-application' is inactive, but the current state is Stable.
+
+How to fix: We have to stop all comsumers in the group.
+
+
