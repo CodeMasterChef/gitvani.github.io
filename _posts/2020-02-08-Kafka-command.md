@@ -32,17 +32,23 @@ kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first-topic
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first-topic
 
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first-topic --from-beginning
+```
 
+### Start a consumer with group:
+
+```
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first-topic --group first-application
+```
 
+```
 # --from-beginning is only affect for the first time creating a group
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first-topic --group third-application --from-beginning
 
 ```
 
 # 🌟 Consumer Group:
-### List all consumer groups: 
 
+### List all consumer groups: 
 ```
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
 ```
