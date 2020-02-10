@@ -92,4 +92,27 @@ Consumer with keys:
 ```
 kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first-topic --from-beginning --property print.key=true --property key.separator=,
 ```
+# 🌟 Kafka Manager:
+1. Download kafka-manager — https://github.com/yahoo/kafka-manager/releases
 
+2. Unzip kafka-manager.
+
+3. Build kafka-manager
+```
+./sbt clean dist
+```
+4. Copy package to host.
+```
+scp target/universal/kafka-manager-1.3.3.7.zip <hostname>:~
+```
+5. Login to remote machine and unzip package
+
+6. Update conf/application.conf, with zookeeper values
+```
+kafka-manager.zkhosts="<zookeeper>:2181/kafka"
+```
+7. Start kafka manager
+```
+bin/kafka-manager -Dconfig.file=conf/application.conf -Dhttp.port=8080 & disown
+```
+8.  Open kafka manager in browser with host ip and given port.
